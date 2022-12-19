@@ -1,0 +1,89 @@
+@import "./utils/vars";
+
+
+.img-graphic {
+    margin-bottom: 90px;
+}
+
+.graphic {
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.graphic__ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.graphic__heading {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 245px;
+}
+
+.graphic__topic {
+    margin-left: 30px;
+    font-size: 18px;
+
+}
+
+.graphic__text {
+    width: 320px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: getColor("whitee");
+}
+
+.button__graphic {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+
+@media  only screen and (max-width: 668px) {
+ 
+    .graphic__ul {
+        display: block;
+        margin: auto;
+        margin-bottom: 90px;
+    }
+
+    .graphic__heading {
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 40px;
+    }
+
+    .graphic__topic {
+        margin-left: 0;
+        font-size: 16px;
+        margin-top: 25px;
+    
+    }
+
+    .graphic__text {
+        width: 320px;
+        height: 300px;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 20px;
+        background-color: getColor("whitee");
+        margin-left: 0;
+    }
+    
+    .button__graphic {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    
+}
+

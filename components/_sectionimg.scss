@@ -1,0 +1,78 @@
+.img {
+    width: auto;
+    height: auto;
+    // position: sticky;
+    // top: 0;
+}
+
+
+@media screen and (min-width: 300px) {
+    .img {
+        width: auto;
+        height: 95px;
+        background-image: url("../img/djzdjęciemobil.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    .img {
+        width: auto;
+        height: 150px;
+        background-image: url("../img/djzdjęciatablet.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .img {
+        width: auto;
+        height: 200px;
+        background-image: url("../img/djzdjęcie.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+.img-graphic {
+    width: auto;
+    height: auto;
+}
+
+
+@media screen and (min-width: 300px) {
+    .img-graphic {
+        width: auto;
+        height: 95px;
+        background-image: url("../img/AE3A1606\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    .img-graphic {
+        width: auto;
+        height: 150px;
+        background-image: url("../img/AE3A1606\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .img-graphic {
+        width: auto;
+        height: 200px;
+        background-image: url("../img/AE3A1606\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
