@@ -94,7 +94,6 @@ html {
 .nav__ul {
   position: fixed;
   margin-top: 0;
-  display: none;
   width: 100%;
   left: 0;
   right: 0;
@@ -143,6 +142,6 @@ html {
     border-radius: 20px;
   }
   .nav__ul {
-    transition: transform 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
   }
 }/*# sourceMappingURL=index.css.map */
