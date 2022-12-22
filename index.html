@@ -28,14 +28,26 @@
         </ul>
 
 
-        <button
-        class="mobile-menu__toggle open-menu d-none-desktop"
-        type="button"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-        backdrop-open
-      >
-      </button>
+        <div class="header-box header-box--secondary">
+            <button
+              class="mobile-menu__toggle open-menu d-none-desktop"
+              type="button"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+              backdrop-open
+            >
+              <svg width="20" height="12"><use xlink:href="./images/icons.svg#icon-burger"></use></svg>
+            </button>
+            <button
+              class="header-box__btn button button--bright d-none-mobile js-open-modal"
+              data-modal="buy-now"
+              type="button"
+            >
+              Buy now<svg class="header-box__icon" width="8" height="10">
+                <use xlink:href="./images/icons.svg#icon-arrow-without-line"></use>
+              </svg>
+            </button>
+          </div>
 
 
         </header>  
@@ -96,7 +108,7 @@
 
 
 
-<script defer src="./js/mobile-menu.js"></script>
+<script defer src="js/mobile-menu.js"></script>
 
 </body>
 </html>
