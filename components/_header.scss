@@ -1,2 +1,24 @@
 @import "./utils/vars";
 
+
+.header {
+    margin-top: 30px;
+
+    &__nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+
+.header__name {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--black);
+    display: inline;
+    transition: color 0.3s ease-in-out;
+
+}
+

@@ -15,97 +15,68 @@
 </head>
 <body>
     
-    
-    <header>
-        
-        <nav>
-            <h1><a href="./index.html"><span class="header__item">Dominika Jaźwicka</span></a></h1>
+    <header class="container header">
 
-            <ul>
-       
-            <li><a href="mailto:dominikajazwicka1@gmail.com">dominikajazwicka1@gmail.com</a></li>
-            <li><a href="tel:+48794534004">794 534 004</a></li>
+        <nav class="header__nav">
+
+        <h1><a href="./index.html"><span class="header__name">Dominika Jaźwicka</span></a></h1>
+
+        <ul class="nav__ul">
+            <li>
+                <a href="mailto:dominikajazwicka1@gmail.com">dominikajazwicka1@gmail.com</a>
+            </li>
+            <li>
+                <a href="tel:+48794534004">794 534 004</a>
+            </li>
         </ul>
 
 
-        <div class="header-box header-box--secondary">
-            <button
-              class="mobile-menu__toggle open-menu d-none-desktop"
-              type="button"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-              backdrop-open
-            >
-              <svg width="20" height="12"><use xlink:href="./images/icons.svg#icon-burger"></use></svg>
-            </button>
-            <button
-              class="header-box__btn button button--bright d-none-mobile js-open-modal"
-              data-modal="buy-now"
-              type="button"
-            >
-              Buy now<svg class="header-box__icon" width="8" height="10">
-                <use xlink:href="./images/icons.svg#icon-arrow-without-line"></use>
-              </svg>
-            </button>
-          </div>
+        <button class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </button>
+
+    </nav>
 
 
-        </header>  
 
-    <!-- <ul class="nav__ul">
-        <li class="contact">Kontakt:</li>
-      
-        </li> -->
-    <!-- <div class="media-menu-div">
+        <!-- <nav class="header__nav2">
+
+            <div class="nav__div">
+            <a href="./index.html"><span class="header__item">Dominika Jaźwicka</span></a>
+        </div>
+
+        <ul class="nav__ul">
+            <div class="nav__ul-div">
+                <li class="contact">Kontakt:</li>
+            <li class="header-contact__item">
+                 <a href="mailto:dominikajazwicka1@gmail.com" class="header__link-nav mail">dominikajazwicka1@gmail.com</a>
+                </li>
+
+                    <li class="header-contact__item">
+            <a href="tel:+48794534004" class="header__link-nav phone-number">794 534 004</a></li>
+    </div>
+
+
+    
+    <div class="media-menu-div">
     <li class="media-menu"><a href="https://www.linkedin.com/in/dominika-ja%C5%BAwicka-65a627237/"><span class="media-text">LinkedIn</span></li></a>
     <li class="media-menu"><a href="https://www.instagram.com/domi_in_the_skies/"><span class="media-text">Instagram</span></li></a>
     <li class="media-menu"><a href="https://www.facebook.com/dominika.jazwicka.56/"><span class="media-text">Facebook</span></li></a>
-                        <li class="header-contact__item">
-            <a href="tel:+48794534004" class="header__link-nav phone-number">794 534 004</a></li>
-    </div> -->
-
+    </div>
+            </ul>
     
-        <!-- <button class="burger">
+        <button class="burger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
-        </button> -->
-   
+        </button>
+        </nav> -->
     
- 
+    </header>  
 
-
-
-
-
-    <section class="img container"></section>
-
-    <section class="container">
-
-        <ul class="main">
-
-            <li class="main__element">
-                <p class="main__topic Page">Strony internetowe</p>
-                <a href="./page.html"><button type="button" class="main__button Page-button"><span class="main__button-look">zobacz</span></button></a>
-            </li>
-
-            <li class="main__element"> 
-                <p class="main__topic Graphic">Projektowanie graficzne</p>
-                <a href="./graphicdesign.html"><button type="button" class="main__button"><span class="main__button-look">zobacz</span></button></a>
-            </li>
-        </ul>
-
-    </section>
-
-    <footer class="container footer">
-
-    <ul class="footer__ul">
-        <li class="footer__li">UI/UX: Dominika Jaźwicka</li>
-        <li class="footer__li">Kod: Dominika Jaźwicka</li>
-    </ul>
-
-    </footer>
-
+      
 
 
 <script defer src="js/mobile-menu.js"></script>
