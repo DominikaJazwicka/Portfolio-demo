@@ -49,6 +49,7 @@ html {
 }
 
 .header {
+  overflow: hidden;
   margin-top: 30px;
 }
 .header__nav {
