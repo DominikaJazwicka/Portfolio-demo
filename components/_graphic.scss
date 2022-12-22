@@ -38,7 +38,7 @@
     margin-top: 25px;
     font-size: 14px;
     line-height: 20px;
-    background-color: getColor("whitee");
+    background-color: var(--white);
 }
 
 .button__graphic {
@@ -76,7 +76,7 @@
         margin-top: 15px;
         font-size: 14px;
         line-height: 20px;
-        background-color: getColor("whitee");
+        background-color: var(--white);
         margin-left: 0;
     }
     

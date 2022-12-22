@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: getColor("white");
+    background-color: var(--white);
 }
 
 * {
@@ -43,7 +43,7 @@ html {
     display: flex;
     gap: 15px;
     flex-direction: column;
-    background-color: getColor(white);
+    background-color: var(--white);
 }
 
 .container__2 {
@@ -58,7 +58,7 @@ html {
     margin-left: 25;
     font-weight: bold;
     font-size: 36px;
-    color: getColor("blackk");
+    color: var(--black);
     display: inline;
     transition: color 0.3s ease-in-out;
     position: relative;
@@ -73,14 +73,14 @@ html {
     height: 1px;
     top: 39px;
     left: 374px;
-    background-color: getColor("blackk");
+    background-color: var(--black);
     z-index: 3;
 
 }
 
 
 .header__item:hover {
-    color: getColor("pinkk");
+    color: var(--pink);
 }
 
 .nav__div {
@@ -101,7 +101,7 @@ html {
     transition: .3s ease-in-out;
 
     &:hover {
-        color: getColor("pinkk");
+        color: var(--pink)
     }
 }
 
@@ -113,7 +113,7 @@ html {
     height: 1px;
     top: 95px;
     left: 636px;
-    background-color: getColor("blackk");
+    background-color: var(--pink);
     z-index: 3;
 }
 
@@ -123,7 +123,7 @@ html {
     transition: .3s ease-in-out;
 
     &:hover {
-        color: getColor("pinkk");
+        color: var(--pink);
     }
 }
 
@@ -137,7 +137,7 @@ html {
 }
 
 .header__nav2 {
-    background-color: getColor("white");
+    background-color: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -162,7 +162,7 @@ html {
     padding-left: 10px;
     text-decoration: none;
     font-size: 16px;
-    color: getColor("blackk");
+    color: var(--black);
 }
 
 .contact {
@@ -189,7 +189,7 @@ html {
 .line {
     width: 3em;
     height: .3em;
-    background-color: getColor("pinkk");
+    background-color: var(--pink);
     margin: .7em;
     border-radius: 20px;
     transition: .3s ease-in-out;
@@ -223,7 +223,7 @@ html {
 
     .contact {
         display: block;
-        color: getColor("whitee");
+        color: var(--white);
         font-weight: 700;
         margin-top: 100px;
         margin-bottom: 30px;
@@ -270,7 +270,7 @@ html {
         left: 0;
         right: 0;
         top: 0;
-        background-color: getColor("blackk");
+        background-color: var(--black);
         height: 102vh;
         transform: translate(100%);
         z-index: 3;
@@ -283,7 +283,7 @@ html {
     }
 
     .header__link-nav {
-        color: getColor("whitee");
+        color: var(--white);
         letter-spacing: 2px;
     }
 
@@ -323,7 +323,7 @@ html {
     
     .header__link-nav_contact{
         font-size: 36px;
-        color: getColor("blackk");
+        color: var(--black);
     }
 
     .media-menu-div {
@@ -335,23 +335,23 @@ html {
     }
 
     .media-menu-div:hover {
-        color: getColor("pinkk");
+        color: var(--pink);
     }
 
     .media-menu {
         cursor: pointer;
         padding: 10px;
-        color: getColor("whitee");
+        color: var(--white);
         letter-spacing: 2px;
     }
 
 
 
     .media-text {
-        color: getColor("whitee");
+        color: var(--white);
 
         &:hover {
-            color: getColor("pinkk");
+            color: var(--pink);
         }
     }
 }
@@ -377,7 +377,7 @@ html {
         width: auto;
         margin: auto;
         flex-direction: column;
-        background-color: getColor("white");
+        background-color: var(--white);
     }
 }
 
