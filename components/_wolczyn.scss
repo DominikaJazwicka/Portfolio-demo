@@ -18,7 +18,7 @@
 
 .gallery img:focus
 .gallery img:focus {
-    border: solid 5px getColor("pinkk");
+    border: solid 5px var(--pink);
 }
 
 .gallery__element img:hover{
@@ -62,7 +62,7 @@
     position: fixed;
     background-color: transparent;
     border: none;
-    color: getColor("whitee");
+    color: var(--white);
     top: 50px;
     right: 130px;
     font-size: 64px;
@@ -71,7 +71,7 @@
 }
 
 .popup__close:hover {
-    color: getColor("pinkk");
+    color: var(--pink);
     opacity: none;
 }
 
@@ -83,14 +83,14 @@
     line-height: 128px;
     font-size: 72px;
     background-color: transparent;
-    color: getColor("whitee");
+    color: var(--white);
     padding: 10px;
     border: none;
     cursor: pointer;
     transition: color 0.3s ease-in-out;
 }
 .popup__arrow:hover {
-    color: getColor("pinkk");
+    color: var(--pink);
     opacity: none;
 }
 

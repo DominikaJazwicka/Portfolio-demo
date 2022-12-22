@@ -1,19 +1,7 @@
-
-html {
-    overflow-x: hidden;
-}
-
-
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--white);
-    background-color: var(--white);
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    margin: 0;
-    padding: 0;
+    background-color: getColor("white");
 }
-
 
 * {
     padding: 0;
@@ -22,13 +10,16 @@ body {
 
 
 ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-  }
+    list-style: none;
+}
 
-a {
+a { 
     text-decoration: none;
-  }
+}
 
 
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
