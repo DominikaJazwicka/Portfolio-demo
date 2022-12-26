@@ -1,4 +1,7 @@
 
+
+@media screen and (max-width: 480px) {
+
 .burger {
         z-index: 3;
         border: none;
@@ -59,7 +62,7 @@
         border-radius: 20px;
         transition: transform 0.4s ease-in-out;
     }
-
+}
 
 
 
@@ -67,12 +70,10 @@
 
 @media screen and (min-width: 1280px) {
 
-.burger {
-    display: none;
+
+    .burger {
+        display: none;
+    }
 }
 
-.nav__ul {
-    transition: background 0.4s ease-in-out;
-}
 
-}

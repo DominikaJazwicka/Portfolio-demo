@@ -1,6 +1,9 @@
 @import "./utils/vars";
 
 
+
+@media screen and (max-width: 480px) {
+
 .header {
     overflow: hidden;
     margin-top: 30px;
@@ -55,14 +58,68 @@
     margin-left: 40px;
     color: var(--white);
 }
+}
+
+
+@media  screen and (min-width: 768px) {
 
 
 
-@media  screen and (min-width: 768px){
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .header__name {
+        cursor: pointer;
+        margin-left: 30px;
+        font-weight: bold;
+        font-size: 28px;
+        color: var(--black);
+    
+        &:hover {
+            color: var(--pink);
+        }
+    }
+
+    .header {
+        height: 100px;
+
+    }
+
+
+    .nav__element {
+        display: flex;
+        font-size: 16px;
+        color: var(--black);
+        transition: color 0.3s ease-in-out;
+        padding: 5px;
+    
+        &:hover {
+            color: var(--pink);
+        }
+    }
+    .nav__list {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .contact {
+        display: none;
+    }
 
     .nav__ul {
-        position: relative;
+        display: flex;
+        align-items: center;
+        
     }
+
+    .tel {
+        margin-left: 152px;
+    }
+
 }
 
 // @media screen and (min-width: 1280px) {
