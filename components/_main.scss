@@ -56,24 +56,23 @@
 }
 
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 500px) {
+
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
     .main__topic {
         font-size: 20px;
         align-items: center;
     }
 
     .main__element {
-        display: flex;
+        margin: 10px;
         align-items: center;
         margin-bottom: 30px;
-    }
-
-    .CV {
-        margin-left: -160px;
-    }
-
-    .Page {
-        margin-left: -12px;
     }
 
     .Graphic {

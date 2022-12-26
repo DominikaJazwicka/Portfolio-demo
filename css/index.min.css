@@ -223,4 +223,77 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+:root {
+  --white: #fff;
+  --black: #000000;
+  --pink: #AB007B;
+  --grey: #B7B7B9;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.main__element {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 70px;
+}
+
+.main__button {
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: var(--white);
+  transition: background 0.3s linear;
+}
+.main__button:hover {
+  background-color: var(--pink);
+}
+
+.main__topic {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main__button-look {
+  color: var(--black);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  transition: color 0.3s linear;
+}
+
+.main__button-look:hover {
+  color: var(--white);
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__topic {
+    font-size: 20px;
+    align-items: center;
+  }
+  .main__element {
+    margin: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .Graphic {
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=index.min.css.map */
