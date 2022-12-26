@@ -49,54 +49,7 @@ html {
   --grey: #B7B7B9;
 }
 
-@media screen and (max-width: 480px) {
-  .header {
-    overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .header__nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .header__name {
-    margin-left: 30px;
-    font-weight: bold;
-    font-size: 20px;
-    color: var(--black);
-    display: inline;
-    transition: color 0.3s ease-in-out;
-  }
-  .header__name:hover {
-    color: var(--pink);
-  }
-  .nav__element {
-    font-size: 16px;
-    margin-left: 40px;
-    color: var(--white);
-    transition: color 0.3s ease-in-out;
-  }
-  .nav__element:hover {
-    color: var(--pink);
-  }
-  .tel {
-    padding-top: 10px;
-  }
-  .nav__list {
-    margin-top: 50%;
-    margin-left: 4%;
-  }
-  .contact {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 40px;
-    display: flex;
-    margin-left: 40px;
-    color: var(--white);
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 774px) {
   .header__nav {
     display: flex;
     justify-content: space-between;
@@ -104,7 +57,7 @@ html {
   }
   .header__name {
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 22px;
     font-weight: bold;
     font-size: 28px;
     color: var(--black);
@@ -132,15 +85,56 @@ html {
   .contact {
     display: none;
   }
+}
+@media screen and (max-width: 768px) {
+  .header__nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__name {
+    cursor: pointer;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--black);
+  }
+  .header__name:hover {
+    color: var(--pink);
+  }
+  .header {
+    height: 80px;
+  }
+  .nav__element {
+    margin-left: 35px;
+    display: block;
+    font-size: 16px;
+    color: var(--white);
+    transition: color 0.3s ease-in-out;
+    padding: 5px;
+  }
+  .nav__element:hover {
+    color: var(--pink);
+  }
+  .nav__list {
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+  .contact {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    margin-left: 40px;
+    color: var(--white);
+  }
   .nav__ul {
     display: flex;
     align-items: center;
   }
-  .tel {
-    margin-left: 152px;
-  }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 774px) {
   .burger {
     z-index: 3;
     border: none;
@@ -193,7 +187,7 @@ html {
     transition: transform 0.4s ease-in-out;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 774px) {
   .burger {
     display: none;
   }
