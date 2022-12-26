@@ -21,6 +21,20 @@
     color: var(--black);
     display: inline;
     transition: color 0.3s ease-in-out;
+}
 
+.nav__element {
+    font-size: 16px;
+    margin-left: 40px;
+    color: var(--white);
+}
+
+.tel {
+    padding-top: 10px;
+}
+
+.nav__list {
+    margin-top: 50%;
+    margin-left: 4%;
 }
 
