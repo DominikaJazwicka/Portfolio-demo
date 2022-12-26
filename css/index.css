@@ -68,11 +68,18 @@ html {
   display: inline;
   transition: color 0.3s ease-in-out;
 }
+.header__name:hover {
+  color: var(--pink);
+}
 
 .nav__element {
   font-size: 16px;
   margin-left: 40px;
   color: var(--white);
+  transition: color 0.3s ease-in-out;
+}
+.nav__element:hover {
+  color: var(--pink);
 }
 
 .tel {
@@ -84,14 +91,32 @@ html {
   margin-left: 4%;
 }
 
+.contact {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  margin-left: 40px;
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .nav__ul {
+    position: relative;
+  }
+}
 .burger {
   z-index: 3;
-  position: absolute;
-  display: block;
-  transition: 0.3s ease-in-out;
-  margin-left: 75%;
-  background-color: transparent;
   border: none;
+  transition: transform 0.4s ease-in-out;
+  margin-left: 75%;
+  position: absolute;
+  top: 20;
+  right: 20;
+  z-index: 4;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
 .burger.active .line:first-child {
@@ -140,24 +165,7 @@ html {
 
 @media screen and (min-width: 1280px) {
   .burger {
-    transition: transform 0.4s ease-in-out;
-    margin-left: 75%;
-    position: absolute;
-    top: 20;
-    right: 20;
-    z-index: 4;
-    background: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
     display: none;
-  }
-  .line {
-    width: 3em;
-    height: 0.3em;
-    background-color: var(--pink);
-    margin: 0.7em;
-    border-radius: 20px;
   }
   .nav__ul {
     transition: background 0.4s ease-in-out;

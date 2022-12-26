@@ -1,12 +1,16 @@
 
 .burger {
         z-index: 3;
-        position: absolute; 
-        display: block;
-        transition: .3s ease-in-out;
-        margin-left: 75%;
-        background-color: transparent;
         border: none;
+        transition: transform 0.4s ease-in-out;
+        margin-left: 75%;
+        position: absolute;
+        top: 20;
+        right: 20;
+        z-index: 4;
+        background: transparent;
+        outline: none;
+        cursor: pointer;
 
     }
 
@@ -64,26 +68,9 @@
 @media screen and (min-width: 1280px) {
 
 .burger {
-    transition: transform 0.4s ease-in-out;
-    margin-left: 75%;
-    position: absolute;
-    top: 20;
-    right: 20;
-    z-index: 4;
-    background: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
     display: none;
 }
 
-.line {
-    width: 3em;
-    height: .3em;
-    background-color: var(--pink);
-    margin: .7em;
-    border-radius: 20px;
-}
 .nav__ul {
     transition: background 0.4s ease-in-out;
 }
