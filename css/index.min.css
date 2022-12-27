@@ -50,6 +50,9 @@ html {
 }
 
 @media screen and (min-width: 774px) {
+  .header {
+    height: 100px;
+  }
   .header__nav {
     display: flex;
     justify-content: space-between;
@@ -64,9 +67,6 @@ html {
   }
   .header__name:hover {
     color: var(--pink);
-  }
-  .header {
-    height: 100px;
   }
   .nav__element {
     display: flex;
@@ -88,7 +88,8 @@ html {
 }
 @media screen and (max-width: 768px) {
   .header__nav {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -195,6 +196,7 @@ html {
 .img {
   width: auto;
   height: auto;
+  margin: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -244,15 +246,15 @@ html {
   flex-wrap: nowrap;
   align-items: center;
   margin-left: 25px;
-  margin-right: 70px;
+  margin-top: 30px;
 }
 
 .main__button {
   cursor: pointer;
   margin-left: 15px;
   margin-right: 15px;
-  width: 80px;
-  height: 30px;
+  width: 90px;
+  height: 40px;
   border: 1px solid black;
   background-color: var(--white);
   transition: background 0.3s linear;
@@ -262,16 +264,16 @@ html {
 }
 
 .main__topic {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
 }
 
 .main__button-look {
   color: var(--black);
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 7px;
-  padding-top: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   transition: color 0.3s linear;
 }
 
@@ -294,6 +296,9 @@ html {
     margin-bottom: 30px;
   }
   .Graphic {
-    margin-left: 10px;
+    margin-left: 20px;
+  }
+  .Page {
+    margin-left: 20px;
   }
 }/*# sourceMappingURL=index.min.css.map */
