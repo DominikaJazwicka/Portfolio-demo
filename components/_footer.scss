@@ -1,8 +1,10 @@
 @import "./utils/vars";
 
+
+
 .footer {
     width: auto;
-    height: 215px;
+    height: 286px;
     background-color: var(--grey);
 }
 
@@ -10,8 +12,9 @@
 .footer__ul {
     font-size: 12px;
     color: var(--white);
-    margin-top: 80px;
-    margin-left: 70%;
+    padding-top: 150px;
+    margin-left: 60%;
+    margin-top: 100px;
 }
 
 .footer__li {
@@ -19,17 +22,19 @@
 }
 
 
-@media only screen and (max-width: 668px) {
+@media  screen and (min-width: 774px) {
 
     .footer__ul {
-        margin-left: 55%;
+        padding-top: 150px;
+        margin-left: 60%;
+        margin-top: 100px;
     }
 
     .footer {
-        height: 230px;
+        height: 286px;
     }
 
     .footer__li {
-        padding-bottom: 4px;
+        margin-top: 5px;
     }
 }

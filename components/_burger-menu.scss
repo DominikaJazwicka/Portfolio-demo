@@ -20,6 +20,7 @@
     .burger.active .line:first-child {
         transform: translateY(-300px);
         transition: transform 0.4s ease-in-out;
+        position: fixed;
     }
 
     .burger.active .line:nth-child(2) {

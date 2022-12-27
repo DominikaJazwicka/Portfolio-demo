@@ -8,7 +8,9 @@
     justify-content: center;
 
     &__img {
-        margin-bottom: 90px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
     }
 
     &__ul {
@@ -26,7 +28,6 @@
     }
 
     &__topic {
-        margin-left: 30px;
         font-size: 18px;
     
     }
@@ -34,8 +35,7 @@
     &__text-marketing {
         width: 320px;
         height: 300px;
-        margin-left: 30px;
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 14px;
         line-height: 20px;
         background-color: var(--white);
@@ -44,31 +44,32 @@
     &__text-identification {
         width: 320px;
         height: 40px;
-        margin-left: 30px;
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 14px;
         line-height: 20px;
         background-color: var(--white);
     }
     &__text-campaign {
         width: 320px;
-        height: 40px;
-        margin-left: 30px;
-        margin-top: 25px;
+        height: 10px;
+        margin-top: 15px;
         font-size: 14px;
         line-height: 20px;
         background-color: var(--white);
     }
 
+    &__div {
+        margin-left: 10%;
+    }
 
 }
 
 
 
 
-.button__graphic {
-    margin-top: 50px;
-    margin-left: 30px;
+.graphic__button {
+    margin-top: 40px;
+    margin-left: 0;
 }
 
 
