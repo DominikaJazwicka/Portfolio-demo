@@ -17,6 +17,7 @@
         display: flex;
         justify-content: center;
         margin-bottom: 90px;
+        margin-right: 100px;
     }
 
     &__heading {
@@ -34,7 +35,7 @@
 
     &__text-marketing {
         width: 320px;
-        height: 300px;
+        height: 30px;
         margin-top: 15px;
         font-size: 14px;
         line-height: 20px;
@@ -64,11 +65,8 @@
 
 }
 
-
-
-
 .graphic__button {
-    margin-top: 40px;
+    margin-top: 90px;
     margin-left: 0;
 }
 
